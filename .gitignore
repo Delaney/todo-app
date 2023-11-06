@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+bin/src/main/*
+build/class/java/main/com/.../*.class
+build/libs/snapshot.jar
+build/reports/test/test/*
+build/resources/main
