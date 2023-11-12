@@ -1,13 +1,14 @@
-package com.delaney.firstrest.item;
+package com.delaney.todoapp.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.delaney.todoapp.repositories.TaskRepository;
+
 @RestController
-public class ItemController {
+public class TaskController {
     
     @Autowired
-    ItemRepository ItemRepository;
+    TaskRepository TaskRepository;
     
 }
